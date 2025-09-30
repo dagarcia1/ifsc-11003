@@ -9,3 +9,43 @@ html
 *:after {
     box-sizing:inherit;
 }
+
+body{
+  font-family: "Sedgwick Ave", cursive;
+  margin:0;
+}
+
+header.primary{
+    background-color:#F2A922;
+    text-align:center;
+    text-shadow: 1px 1px 20px #000000;
+    color:#ffffff;
+    padding: 20px 40px;
+}
+
+header.primary h1{
+    font-size: 2.4rem;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none; 
+}
+
+header.primary h2{
+    font-size: 1.4rem;
+    letter-spacing:.2px;
+    margin:10px 0 0 0;
+}
+
+header.primary nav ul{
+  padding:0;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+}
+
+header.primary nav ul a{
+  
+}

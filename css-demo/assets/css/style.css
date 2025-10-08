@@ -10,12 +10,14 @@ html
     box-sizing:inherit;
 }
 
-body{
+body
+{
   font-family: "Sedgwick Ave", cursive;
   margin:0;
 }
 
-header.primary{
+header.primary
+{
     background-color:#F2A922;
     text-align:center;
     text-shadow: 1px 1px 5px #000000;
@@ -23,22 +25,26 @@ header.primary{
     padding: 20px 40px;
 }
 
-header.primary h1{
+header.primary h1
+{
     font-size: 2.4rem;
 }
 
-header.primary h1 a{
+header.primary h1 a
+{
     color:#ffffff;
     text-decoration:none; 
 }
 
-header.primary h2{
+header.primary h2
+{
     font-size: 1.4rem;
     letter-spacing:.2px;
     margin:10px 0 0 0;
 }
 
-header.primary nav ul{
+header.primary nav ul
+{
   padding:0;
   display:flex;
   flex-direction:row;
@@ -46,11 +52,13 @@ header.primary nav ul{
   margin: 20px;
 }
 
-header.primary nav ul li{
+header.primary nav ul li
+{
   list-style-type:none;
 }
 
-header.primary nav ul a{
+header.primary nav ul a
+{
   color:#ffffff;
   background-color:#03A66A;
   padding: 5px 7.5px;
@@ -63,12 +71,101 @@ header.primary nav ul a{
   
 }
 
-header.primary nav a:hover{
+header.primary nav a:hover
+{
    background-color:rgba(166, 3, 3,.8);
 }
 
+#intro h2
+{
+  color:#F2A922;
+  border-bottom:1px dotted #000;
+}
 
+#content
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:20px;
+}
 
+#content .post{
+  box-shadow: 0 4px 8px rgba(166, 3, 3,.8);
+  padding:10px;
+  font-size:.7rem;
+}
+
+#content .post figure
+{
+  margin:0;
+}
+
+#content time.post-date
+{
+  text-transform: uppercase;
+  font-size:.8rem;
+}
+
+#content time.post-date, #content figcaption
+{
+  text-transform:uppercase;
+  font-size:.6rem;
+}
+
+#content a
+{
+  color:#A60303;
+}
+
+#content a:hover
+{
+  text-decoration:none;
+}
+
+aside[role="complementary"] /*attribute selector*/
+{
+  background-color:#F2A922;
+  color:#ffffff;
+  padding: 40px 0;
+}
+
+aside .container
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap: 40px;
+}
+
+/*aside .container a{  this will target a link within the text
+  color:#ffffff;
+}
+aside .container a:hover{
+text-decoration:none;
+}*/
+aside .container a:last-child /*this will target the last child...specifically the last hyperlink*/
+{
+  color:#A60303;
+  display:block;  /*will force the item to be on its own line*/
+  text-align:right;
+  margin-top: 20px;
+}
+
+aside .widget footer
+{
+  display:none;
+}
+
+#colophon
+{
+  background-color:#F2A922;
+  padding:5px;
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:bold;
+  color:#ffffff;
+}
 
 
 
@@ -93,7 +190,7 @@ header.primary nav a:hover{
 /* ----------- Utility Classes ------------ */
 
 .container{
-  background:red;
+  /*background:red;*/
   width:80vw;
   max-width:1140px;
   margin: 20px auto;

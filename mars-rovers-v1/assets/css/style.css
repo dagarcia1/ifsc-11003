@@ -1,0 +1,88 @@
+/* Box Sizing*/
+html 
+{
+     box-sixing: border-box;
+}
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+}
+
+/* Global styles */
+
+body
+{
+     font-family: "Orbitron", sans-serif;
+     margin :0;
+     background: linear-gradient(to top, #0A0F15, #DB4028, #0A0F15);
+}
+
+/* Images */
+
+img 
+{
+     max-width:100%;
+     height:auto;
+}
+
+/*Utility Styles*/
+
+nav.primary
+{
+     margin-bottom:8rem;
+}
+
+nav.primary ul 
+{
+     padding:0;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-around;
+}
+
+nav.primary ul li
+{
+     list-style-type:none;
+}
+
+header.primary ul a 
+{
+     color: #ffffff;
+     padding:5px 7.5px;
+     border-radius: 15px;
+     text-decoration:none;
+     font-size: .8rem;
+     transition:.4s;
+     font-size: 18px;
+}
+
+header.primary a:hover
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+header.primary
+{
+     text-align:center;
+     color:#ffffff;
+     padding: 0;
+     margin-bottom:10rem;
+}
+
+header.primary h1
+{    
+     background-image: url("https://assets.codepen.io/7248/nasa-opt.webp");
+     display: block;
+     width: 370px;
+     height: 110px;
+     margin: auto;
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+header.primary h2
+{
+     letter-spacing: 3px;
+}

@@ -1,7 +1,7 @@
 /* Box Sizing*/
 html 
 {
-     box-sixing: border-box;
+     box-sizing: border-box;
 }
 *,
 *:before,
@@ -16,6 +16,7 @@ body
      font-family: "Orbitron", sans-serif;
      margin :0;
      background: linear-gradient(to top, #0A0F15, #DB4028, #0A0F15);
+     color:#ffffff
 }
 
 /* Images */
@@ -27,6 +28,11 @@ img
 }
 
 /*Utility Styles*/
+
+.primary
+{
+     letter-spacing: 3px;
+}
 
 nav.primary
 {
@@ -85,4 +91,42 @@ header.primary h1
 header.primary h2
 {
      letter-spacing: 3px;
+     margin-bottom:10rem;
+}
+
+.container
+{
+     width: 80vw;
+     max-width:960px;  
+     margin: 40px auto; 
+     text-align: center; 
+     letter-spacing: 3px;
+
+}
+
+.container h2
+{
+     font-size: 40px;
+     text-shadow: 0px 3px #D86B42;
+}
+
+.photo header
+{
+     display: flex;
+     flex-direction: row;
+}
+
+.container a
+{
+     font-size: 60px;
+     color: #ffffff;
+     text-decoration:none;
+     text-shadow: none;
+     transition: .4s;
+     border-radius: 15px;   
+}
+
+.container a:hover
+{
+     background-color: rgba(216, 107, 66, 1);
 }

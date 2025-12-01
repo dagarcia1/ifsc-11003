@@ -143,9 +143,45 @@ header.primary h2
      font-size: .8rem;
      transition:.4s;
      font-size: 18px;
+     padding: 5px 7.5px; 
 }
 
 .container a:hover
 {
      background-color: rgba(216, 107, 66, 1);
+     
+}
+
+.Rovers-articles
+{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 0;
+}
+
+.Rovers-articles .story
+{
+     width: 40%;
+     text-align: center;
+}
+
+.Rovers-articles .story img
+{
+     width: 300%;
+     height: 25vh;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 12);
+}
+
+.Rovers-articles .story figcaption
+{
+     text-align: left;
+     font-size: 12px;
+}
+
+footer.primary
+{
+     margin-top: 150px;
+     text-align: center;
+     font-size: 15px;
 }

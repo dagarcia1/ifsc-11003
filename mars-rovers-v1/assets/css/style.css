@@ -69,7 +69,6 @@ header.primary ul a
      padding:5px 7.5px;
      border-radius: 15px;
      text-decoration:none;
-     font-size: .8rem;
      transition:.4s;
      font-size: 18px;
 }
@@ -132,7 +131,7 @@ header.primary h2
      height: 20vh;
      background-color: #ffffff;
      padding: 5px 5px 30px;
-     box-shadow: 0 15px 20px rgba(0, 0, 0, 12);
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .container a
@@ -140,7 +139,6 @@ header.primary h2
      color:#ffffff;
      border-radius: 15px;
      text-decoration:none;
-     font-size: .8rem;
      transition:.4s;
      font-size: 18px;
      padding: 5px 7.5px; 
@@ -168,9 +166,9 @@ header.primary h2
 
 .Rovers-articles .story img
 {
-     width: 300%;
+     width: 100%;
      height: 25vh;
-     box-shadow: 0 15px 20px rgba(0, 0, 0, 12);
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
 }
 
 .Rovers-articles .story figcaption
@@ -184,4 +182,63 @@ footer.primary
      margin-top: 150px;
      text-align: center;
      font-size: 15px;
+}
+
+footer.primary a
+{
+     color:#ffffff;
+     border-radius: 15px;
+     text-decoration:none;
+     transition:.4s;
+     padding: 5px 7.5px; 
+}
+
+footer.primary a:hover
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+.robots-history img
+{
+     width:100%;
+     height: 50vh;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+}
+
+.robots-history figcaption
+{
+     text-align: left;
+     font-size: 12px;
+}
+
+table.rover-comparison caption
+{
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+
+table.rover-comparison
+{
+     text-align: center;
+     font-size: 25px;
+     border: 3px solid #ffffff;
+     border-collapse: collapse;
+     width:80%;
+     margin:0 auto;
+}
+
+table.rover-comparison td
+{
+     border: 3px solid #ffffff;
+     padding: 5px;
+} 
+
+table.rover-comparison tr:hover
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+#faq-intro
+{
+     text-align: center;
 }

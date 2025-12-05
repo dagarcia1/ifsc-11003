@@ -1,0 +1,248 @@
+/* Box Sizing*/
+html 
+{
+     box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+}
+
+/* Global styles */
+
+body
+{
+     font-family: "Orbitron", sans-serif;
+     margin :0;
+     background: linear-gradient(to top, #0A0F15, #DB4028, #0A0F15);
+     color:#ffffff
+}
+
+/* Images */
+
+img 
+{
+     max-width:100%;
+     height:auto;
+}
+
+/*Utility Styles*/
+
+.primary
+{
+     letter-spacing: 3px;
+}
+
+.container
+{
+     width: 80vw;
+     max-width:960px;  
+     margin: 40px auto; 
+     text-align: center; 
+     letter-spacing: 3px;
+}
+
+nav.primary
+{
+     margin-bottom:8rem;
+}
+
+/* -------- */
+
+nav.primary ul 
+{
+     padding:0;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-around;
+}
+
+nav.primary ul li
+{
+     list-style-type:none;
+}
+
+header.primary ul a 
+{
+     color: #ffffff;
+     padding:5px 7.5px;
+     border-radius: 15px;
+     text-decoration:none;
+     transition:.4s;
+     font-size: 18px;
+}
+
+header.primary a:hover,
+header.primary a:focus
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+header.primary
+{
+     text-align:center;
+     color:#ffffff;
+     padding: 0;
+     margin-bottom:10rem;
+}
+
+header.primary h1
+{    
+     background-image: url("https://assets.codepen.io/7248/nasa-opt.webp");
+     display: block;
+     width: 370px;
+     height: 110px;
+     margin: auto;
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+header.primary h2
+{
+     letter-spacing: 3px;
+     margin-bottom:10rem;
+}
+
+.container h2
+{
+     font-size: 40px;
+     text-shadow: 0px 3px #D86B42;
+}
+
+.Rover-images
+{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin:0;
+}
+
+.Rover-images .photo
+{
+     width: 40%;
+     text-align: center;
+}
+
+.Rover-images .photo img
+{
+     width:100%;
+     height: 20vh;
+     background-color: #ffffff;
+     padding: 5px 5px 30px;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+}
+
+.container a
+{
+     color:#ffffff;
+     border-radius: 15px;
+     text-decoration:none;
+     transition:.4s;
+     font-size: 18px;
+     padding: 5px 7.5px; 
+}
+
+.container a:hover,
+.container a:focus
+
+{
+     background-color: rgba(216, 107, 66, 1);
+     
+}
+
+.Rovers-articles
+{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 0;
+}
+
+.Rovers-articles .story
+{
+     width: 40%;
+     text-align: center;
+}
+
+.Rovers-articles .story img
+{
+     width: 100%;
+     height: 25vh;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+}
+
+.Rovers-articles .story figcaption
+{
+     text-align: left;
+     font-size: 12px;
+}
+
+footer.primary
+{
+     margin-top: 150px;
+     text-align: center;
+     font-size: 15px;
+}
+
+footer.primary a
+{
+     color:#ffffff;
+     border-radius: 15px;
+     text-decoration:none;
+     transition:.4s;
+     padding: 5px 7.5px; 
+}
+
+footer.primary a:hover,
+footer.primary a:focus
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+.robots-history img
+{
+     width:100%;
+     height: 50vh;
+     box-shadow: 0 15px 20px rgba(0, 0, 0, 1);
+}
+
+.robots-history figcaption
+{
+     text-align: left;
+     font-size: 12px;
+}
+
+table.rover-comparison caption
+{
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+
+table.rover-comparison
+{
+     text-align: center;
+     font-size: 25px;
+     border: 3px solid #ffffff;
+     border-collapse: collapse;
+     width:80%;
+     margin:0 auto;
+}
+
+table.rover-comparison td
+{
+     border: 3px solid #ffffff;
+     padding: 5px;
+} 
+
+table.rover-comparison tr:hover
+{
+     background-color: rgba(216, 107, 66, 1);
+}
+
+#faq-intro
+{
+     text-align: center;
+}

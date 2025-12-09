@@ -1,5 +1,5 @@
 body{
-    background-color:darkgray;
+    background-color:pink;
 }
 
 img{
@@ -32,5 +32,5 @@ img{
 .slick-dots li.slick-active button:focus .slick-dot-icon,
 .slick-autoplay-toggle-button:focus 
 {
-    color:black;
+    color:purple;
 }

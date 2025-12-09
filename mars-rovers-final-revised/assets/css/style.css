@@ -224,6 +224,7 @@ table.rover-comparison caption
 table.rover-comparison
 {
      text-align: center;
+     letter-spacing: 3px;
      font-size: 25px;
      border: 3px solid #ffffff;
      border-collapse: collapse;
@@ -245,4 +246,10 @@ table.rover-comparison tr:hover
 #faq-intro
 {
      text-align: center;
+     letter-spacing: 3px;
+}
+
+#faq-intro p
+{
+     margin-bottom: 40px;
 }
